@@ -1,0 +1,51 @@
+#MasterPage{
+    border-radius: 15px;
+    border: 1px solid #8793ad;
+    
+    width: 350px;
+    min-height: 700px;
+    color: black;
+    vertical-align: middle;
+    position: absolute;
+    font-family: 'Kaushan_Script';
+    float: none;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#Header{
+    
+    word-spacing: middle;
+    background: pink;
+    height: 30px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#Menu{
+
+    background: lightgrey;
+    height: 30px;
+    width: 100%;
+
+}
+
+#Page{
+
+    background: pink;
+    height: 640px;
+    width: 100%;
+    top:60px;
+    
+}
+#Footer{
+
+    background: red;
+
+    height: 30px;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
