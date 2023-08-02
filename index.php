@@ -66,10 +66,10 @@ if ($page){
 	}
 	else{
 	include_once('page/welcome.php');
-	}}
-	else
-	
+	}
+	else{
 	echo "Key used, was broken! Please try again.";
+	}
 ?>
 
 
