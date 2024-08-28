@@ -11,10 +11,6 @@ include "common/var/page_unsecure.php";  	// Security Level File
 
 </div>
 
-
-
-
-
 <div id="content">
 
 <table width="100%" height="60px" >
@@ -25,18 +21,38 @@ include "common/var/page_unsecure.php";  	// Security Level File
 <td width="50%" height="30px" align="right"><?php echo fireLink("about-me",$zMotto, $zMite); ?></td>
 </tr>
 <tr>
-<td width="50%" height="30px"><?php echo fireLink("welcome", "welcome", $zMite); ?> >> <?php echo fireLink($zPage,$zPage, $zMite); ?> </td>
+<td width="50%" height="30px"><?php echo fireLink("welcome", "welcome", $zMite); ?> >> <?php echo fireLink($page,$page, $zMite); ?> </td>
 <td width="50%" height="30px" align="right"><?php echo fireLink("contact","Contact Me", $zMite); ?> </td>
 </tr>
 <tr>
-<td width="50%" height="30px" colspan="2" align="left"><h1><?php echo fireLink("about",$zAuthor, $zMite); ?>'s About Page...</h1></td>
+<td width="50%" height="30px" colspan="2" align="left"><h1><?php echo fireLink("about-me",$zAuthor, $zMite); ?>'s OnFocus Movie...</h1></td>
 </tr>
-</table>
-
-
+</table>  
 
 <div id="forward">
-<?php echo fireImageJPEGof( $zMite, 'welcome-4', 'Trumpet Pattern Making', 'medium'); ?>
+<?php echo fireImageJPEGof( $zMite, 'welcome-5', 'Trumpet Pattern Making', 'medium'); ?>
+
+    <div id="zlocation">  
+<?php echo fireLink("artSearch-Artists", "Artists List", $zMite); ?> 
+    
+    </div>
+
+    <div id="zlocation">  
+<?php echo fireLink("artSearch-timeframe", "Time Periods List", $zMite); ?> 
+    
+    </div>
+
+    <div id="zlocation">  
+<?php echo fireLink("artSearch-places", "Art in Places List", $zMite); ?> 
+    
+    </div>
+
+    <div id="zlocation">  
+<?php echo fireLink("artSearch-festivals", "Art in festivals List", $zMite); ?> 
+    
+    </div>
+
+
 <div id="ContextInaBottle"> 
 
 <h3>Hello, My name is Jae.</h3>
@@ -83,6 +99,7 @@ I loved to take drawing classes, they could consume me. I always found art relat
 
 
 </div>
+
 <table width="100%" height="60px" >
 
 <tr>
@@ -91,7 +108,7 @@ I loved to take drawing classes, they could consume me. I always found art relat
 <td width="50%" height="30px" align="right"><?php echo fireLink("about-me",$zMotto, $zMite); ?></td>
 </tr>
 <tr>
-<td width="50%" height="30px"><?php echo fireLink("welcome", "welcome", $zMite); ?> >> <?php echo fireLink($zPage,$zPage, $zMite); ?> </td>
+<td width="50%" height="30px"><?php echo fireLink("welcome", "welcome", $zMite); ?> >> <?php echo fireLink($page,$page, $zMite); ?> </td>
 <td width="50%" height="30px" align="right"><?php echo fireLink("contact","Contact Me", $zMite); ?> </td>
 </tr>
 
