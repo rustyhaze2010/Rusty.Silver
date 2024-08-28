@@ -39,13 +39,7 @@ include "common/var/page_unsecure.php";  	// Security Level File
 <?php echo fireImageJPEGof( $zMite, 'welcome-1', 'I-380', 'medium'); ?>
 
 
-   <?php fireExit("www.heatheradesign.com/","H Albertson Design",$zManagerLevel); ?>
-    
-   <?php fireExit("www.kerrycutsforth.com/","K Cutsforth",$zManagerLevel); ?>
-    
-   <?php fireExit("www.facebook.com/pg/benwantlandmusic/","B Wantland",$zManagerLevel); ?>
-    
-   <?php fireExit("www.facebook.com/TheiHLandscaping","IHL Landscaping",$zManagerLevel); ?>
+
 
 
 
