@@ -38,10 +38,7 @@ include "common/var/page_unsecure.php";  	// Security Level File
 
 
 	 <center>
-
-
-    <script async src="https://cse.google.com/cse.js?cx=f076af3d27eeb9071"></script>
-    <div class="gcse-search"></div>    
+  
     
 
     <?php greetFrom('Iowa'); ?>
