@@ -10,7 +10,7 @@ $zMotto = "Liv Long and Art Search.";                        /// Site Motto.
 $zHome = "home";                                             /// Sets homepage.
 $zCopyright = "Copyright Jae Lamphier. May 1, 2023";         /// Copyright info.
 $zMite = "index.php";                                        /// Main page look back, so you know where home is.
-$zStart = "projects";                                        /// First page to load, or home.
+$zStart = "artSearch-levelone";                              /// First page to load, or home.
 $zMail= "key.9137@outlook.com";                              /// Main site e-mail address
 $zManagerLevel="zGuest";                                     /// zGuest for guest mode or zAdmin to run in admin mode
 
