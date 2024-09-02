@@ -64,12 +64,9 @@ include "common/var/variables.php";
 
 <div id="Menu">
 <img src="common/media/favicon.png" height="25px" width="25px">
-<a href="index.php?page=artSearch-levelone">#<?php echo $zSite; ?>ArtSearch</a> . 	
-
-<a href="index.php?page=projects">#JaeLamp-Projects</a> .  
-
-<a href="index.php?page=about">#About</a> . 
-
+<a href="index.php?page=artSearch-levelone">#<?php echo $zSite; ?></a> . 	
+<a href="index.php?page=about">#JaeLamp-About</a> . 	
+<a href="index.php?page=projects">#Projects</a> . 
 <a href="index.php?page=video">#Video</a>
 
 
@@ -114,12 +111,9 @@ else
 </div>
 <div id="Footer">
 <img src="common/media/favicon.png" height="25px" width="25px">
-<a href="index.php?page=artSearch-levelone">#<?php echo $zSite; ?>ArtSearch</a> . 	
-
-<a href="index.php?page=projects">#JaeLamp-Projects</a> .  
-
-<a href="index.php?page=about">#About</a> . 
-
+<a href="index.php?page=artSearch-levelone">#<?php echo $zSite; ?></a> . 	
+<a href="index.php?page=about">#JaeLamp-About</a> . 
+<a href="index.php?page=projects">#Projects</a> . 
 <a href="index.php?page=video">#Video</a>
 
 	<br>
