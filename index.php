@@ -31,7 +31,7 @@ include "common/var/variables.php";
         background-size: cover;
         min-height: 600px;
         font-family: 'Verdana', 'Helvetica', 'Times';
-        background: tan;
+        ##background: tan;
     }
     #Header{
         background-image: url("common/media/images/header/welcome-3.jpg");
@@ -64,10 +64,12 @@ include "common/var/variables.php";
 
 <div id="Menu">
 <img src="common/media/favicon.png" height="25px" width="25px">
-<a href="index.php?page=projects"><?php echo $zSite; ?></a> .  
+<a href="index.php?page=artSearch-levelone">#<?php echo $zSite; ?>ArtSearch</a> . 	
+
+<a href="index.php?page=projects">#JaeLamp-Projects</a> .  
 
 <a href="index.php?page=about">#About</a> . 
-<a href="index.php?page=artSearch-levelone">#ArtSearch</a> . 
+
 <a href="index.php?page=video">#Video</a>
 
 
@@ -112,12 +114,16 @@ else
 </div>
 <div id="Footer">
 <img src="common/media/favicon.png" height="25px" width="25px">
-<a href="https://rustyhaze.website/index.php?page=projects"><?php echo $zSite; ?></a> .  
+<a href="index.php?page=artSearch-levelone">#<?php echo $zSite; ?>ArtSearch</a> . 	
+
+<a href="index.php?page=projects">#JaeLamp-Projects</a> .  
 
 <a href="index.php?page=about">#About</a> . 
-<a href="index.php?page=artSearch-levelone">#ArtSearch</a> . 
-<a href="index.php?page=video">#Video</a> . 
 
+<a href="index.php?page=video">#Video</a>
+
+	<br>
+	
 <a href="index.php?page=terms">#Terms</a> . 
 <a href="index.php?page=privacy">#Privacy</a> . 
 
