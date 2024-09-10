@@ -55,15 +55,15 @@ include "common/var/page_unsecure.php";  	// Security Level File
 <br>Iowa News:<p>
     
     
-<?php fireExit("www.kcrg.com/","kcrg - 9",$zManagerLevel); ?>
+<?php fireExit("www.kcrg.com/","Kcrg - 9",$zManagerLevel); ?>
 
-<?php fireExit("www.kwwl.com/","kwwl - 7",$zManagerLevel); ?>
+<?php fireExit("www.kwwl.com/","Kwwl - 7",$zManagerLevel); ?>
 
-<?php fireExit("www.cbs2iowa.com","cbs2iowa-2",$zManagerLevel); ?>
+<?php fireExit("www.cbs2iowa.com","Cbs2Iowa-2",$zManagerLevel); ?>
 
-<?php fireExit("www.thegazette.com","thegazette.com",$zManagerLevel); ?>
+<?php fireExit("www.thegazette.com","TheGazette.com",$zManagerLevel); ?>
 
-<?php fireExit("www.desmoinesregister.com","desmoinesregister.com",$zManagerLevel); ?>
+<?php fireExit("www.desmoinesregister.com","DesMoinesRegister.com",$zManagerLevel); ?>
 
 <?php fireExit("www.cnn.com/","CNN",$zManagerLevel); ?>
 
